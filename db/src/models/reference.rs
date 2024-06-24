@@ -78,9 +78,10 @@ impl FromStr for Reference {
                 }
                 State::Book => {
                     if c.is_numeric() {
+                        book_part.pop();
                         chapter_part.push(c);
                         state = State::Chapter;
-                    } else if c.is_alphabetic() || c.is_whitespace() {
+                    } else if c.is_alphabetic() || c.is_whitespace() || c == '.' {
                         book_part.push(c);
                     }
                 }

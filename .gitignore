@@ -2,3 +2,4 @@
 target
 web/dist/css
 **/*.rs.bk
+.idea

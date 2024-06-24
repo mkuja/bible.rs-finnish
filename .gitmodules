@@ -1,3 +1,0 @@
-[submodule "db/migrations"]
-	path = db/migrations
-	url = https://github.com/DSpeckhals/bible.rs-migrations
