@@ -2,12 +2,12 @@
 
 macro_rules! title_format {
     () => {
-        "Bible.rs | {}"
+        "Raamattu.app | {}"
     };
 }
 
 macro_rules! url_format {
     () => {
-        "https://bible.rs{}"
+        "https://raamattu.app{}"
     };
 }

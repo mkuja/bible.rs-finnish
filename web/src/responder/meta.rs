@@ -16,7 +16,7 @@ pub struct Meta {
 impl Meta {
     pub fn for_about() -> Self {
         Self {
-            description: "About Bible.rs".to_string(),
+            description: "About Raamattu.app".to_string(),
             json_ld: vec![JsonLd::About(Box::new(AboutJsonLd::new()))],
             title: format!(title_format!(), "About"),
             url: format!(url_format!(), "/about"),
@@ -25,9 +25,9 @@ impl Meta {
 
     pub fn for_all_books(links: &AllBooksLinks) -> Self {
         Self {
-            description: "Browse and search the King James version of the Bible using a lightning-fast and slick interface.".to_string(),
+            description: "Selaa ja etsi raamattusta nopealla ja helppokäyttöisellä käyttöliittymällä.".to_string(),
             json_ld: vec![JsonLd::AllBooks(AllBooksJsonLd::new(links))],
-            title: format!(title_format!(), "King James Version"),
+            title: format!(title_format!(), "Raamattu suomeksi"),
             url: format!(url_format!(), ""),
         }
     }
