@@ -1,12 +1,12 @@
 {
     "name": "Bible.rs",
     "short_name": "Bible.rs",
-    "lang": "en-US",
+    "lang": "fi-FI",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#444444",
-    "description": "Browse and search the King James version of the Bible using a lightning-fast and slick interface.",
+    "description": "Selaa ja etsi Raamatun kirjoista tekstejä.",
     "orientation": "portrait-primary",
     "icons": [
         {
